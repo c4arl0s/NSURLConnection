@@ -3,7 +3,8 @@
 NSURLConnection
 
 ``` objective-c
-NSURL *url = [NSURL URLWithString: @"https://github.com/santiagocruzcarlos/RestaurantApp/blob/master/1.png"];
+NSString urlString = @"https://github.com/santiagocruzcarlos/RestaurantApp/blob/master/1.png"
+NSURL *url = [NSURL URLWithString: urlString];
         NSURLRequest *request = [NSURLRequest requestWithURL:url];
         NSError *error = nil;
         NSData *data = [NSURLConnection sendSynchronousRequest:request

@@ -1,6 +1,6 @@
 # NSURLConnection
 
-NSURLConnection
+An object that enables you to start and stop URL requests.
 
 ``` objective-c
 //

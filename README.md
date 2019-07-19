@@ -31,7 +31,9 @@ NSURLConnection
     
     NSString *urlString = @"https://api.nasa.gov/planetary/apod?api_key=donTYCCXyjv1z6RfdxVqOa5IiFS8b6FagqVjEJLI";
     NSURL *url = [NSURL URLWithString:urlString];
-    [[NSURLSession.sharedSession dataTaskWithURL:url completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+    [[NSURLSession.sharedSession dataTaskWithURL:url completionHandler:^(NSData * _Nullable data,
+                                                                         NSURLResponse * _Nullable response,
+                                                                         NSError * _Nullable error) {
         NSLog(@"finishing fetching data");
         NSString *dummyString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
         NSLog(@"%@", dummyString);

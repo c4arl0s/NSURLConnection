@@ -1,6 +1,7 @@
 # NSURLConnection
 
-An object that enables you to start and stop URL requests.
+- An object that enables you to start and stop URL requests.
+- The NSURLConnection class provides convenience class methods to load URL requests both asynchronously using a callback block and synchronously.
 
 ``` objective-c
 //

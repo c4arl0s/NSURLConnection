@@ -44,9 +44,11 @@ NSURLConnection
             NSLog(@"failed to serialize into JSON: %@", serializationError.description);
             return;
         }
+        
         for (NSDictionary *itemNasaJSON in nasaJSON) {
             NSLog(@"itemNasaJSON: %@", itemNasaJSON);
         }
+        
         NSString *dateValue = nasaJSON[@"date"];
         NSLog(@"%@", dateValue);
         NSString *explanationValue = nasaJSON[@"explanation"];
@@ -72,6 +74,7 @@ NSURLConnection
 //}
 
 @end
+
 
 ```
 

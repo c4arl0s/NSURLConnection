@@ -3,6 +3,11 @@
 - An object that enables you to start and stop URL requests.
 - The NSURLConnection class provides convenience class methods to load URL requests both asynchronously using a callback block and synchronously.
 
+# Content-type
+
+- Content-type is known as a MIME type that indicates what kind of data an HTTP response contains.
+
+
 ``` objective-c
 //
 //  ViewController.m

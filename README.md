@@ -1,3 +1,5 @@
+An object that enables you to start and stop URL requests.
+
 # NSURLConnection
 
 - An object that enables you to start and stop URL requests.

@@ -78,6 +78,25 @@ An object that enables you to start and stop URL requests.
 
 @end
 ```
+
+# Console output
+
+``` console
+2019-08-10 09:51:00.237014-0500 NSNotificationCenter[2744:142870] finishing fetching data
+2019-08-10 09:51:00.237219-0500 NSNotificationCenter[2744:142870] {"copyright":"Ignacio\nDiaz Bobillo","date":"2019-08-10","explanation":"A star cluster around 2 million years young surrounded by natal clouds of dust and glowing gas, M16 is also known as The Eagle Nebula. This beautifully detailed image of the region adopts the colorful Hubble palette and includes cosmic sculptures made famous in Hubble Space Telescope close-ups of the starforming complex. Described as elephant trunks or Pillars of Creation, dense, dusty columns rising near the center are light-years in length but are gravitationally contracting to form stars. Energetic radiation from the cluster stars erodes material near the tips, eventually exposing the embedded new stars. Extending from the ridge of bright emission left of center is another dusty starforming column known as the Fairy of Eagle Nebula. M16 lies about 7,000 light-years away, an easy target for binoculars or small telescopes in a nebula rich part of the sky toward the split constellation Serpens Cauda (the tail of the snake).   Watch: Perseid Meteor Shower","hdurl":"https://apod.nasa.gov/apod/image/1908/M16_HSHO_crop2.jpg","media_type":"image","service_version":"v1","title":"M16 Close Up","url":"https://apod.nasa.gov/apod/image/1908/M16_HSHO_crop2_1024.jpg"}
+2019-08-10 09:51:00.237973-0500 NSNotificationCenter[2744:142870] itemNasaJSON: media_type
+2019-08-10 09:51:00.238152-0500 NSNotificationCenter[2744:142870] itemNasaJSON: copyright
+2019-08-10 09:51:00.238267-0500 NSNotificationCenter[2744:142870] itemNasaJSON: date
+2019-08-10 09:51:00.238387-0500 NSNotificationCenter[2744:142870] itemNasaJSON: explanation
+2019-08-10 09:51:00.238521-0500 NSNotificationCenter[2744:142870] itemNasaJSON: hdurl
+2019-08-10 09:51:00.238632-0500 NSNotificationCenter[2744:142870] itemNasaJSON: service_version
+2019-08-10 09:51:00.238750-0500 NSNotificationCenter[2744:142870] itemNasaJSON: title
+2019-08-10 09:51:00.238855-0500 NSNotificationCenter[2744:142870] itemNasaJSON: url
+2019-08-10 09:51:00.238960-0500 NSNotificationCenter[2744:142870] 2019-08-10
+2019-08-10 09:51:00.242537-0500 NSNotificationCenter[2744:142870] A star cluster around 2 million years young surrounded by natal clouds of dust and glowing gas, M16 is also known as The Eagle Nebula. This beautifully detailed image of the region adopts the colorful Hubble palette and includes cosmic sculptures made famous in Hubble Space Telescope close-ups of the starforming complex. Described as elephant trunks or Pillars of Creation, dense, dusty columns rising near the center are light-years in length but are gravitationally contracting to form stars. Energetic radiation from the cluster stars erodes material near the tips, eventually exposing the embedded new stars. Extending from the ridge of bright emission left of center is another dusty starforming column known as the Fairy of Eagle Nebula. M16 lies about 7,000 light-years away, an easy target for binoculars or small telescopes in a nebula rich part of the sky toward the split constellation Serpens Cauda (the tail of the snake).   Watch: Perseid Meteor Shower
+
+```
+
 # AppDelegate.m
 
 ``` objective-c

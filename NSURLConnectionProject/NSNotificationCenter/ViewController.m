@@ -8,9 +8,6 @@
 
 #import "ViewController.h"
 
-// 1. Define a constant string value
-//NSString const *mySpecialNotificationKey = @"specialNotificationKey";
-
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
@@ -62,11 +59,5 @@
         });
     } ] resume ];
 }
-
-//-(void)notify
-//{
-//    // 2. Post a notification to NSNotificationCenter identified by the key name defined before.
-//    //[[NSNotificationCenter defaultCenter] postNotificationName:@"mySpecialNotificationKey" object:nil];
-//}
 
 @end

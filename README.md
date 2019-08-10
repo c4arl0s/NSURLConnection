@@ -78,7 +78,6 @@ An object that enables you to start and stop URL requests.
 
 @end
 ```
-
 # AppDelegate.m
 
 ``` objective-c

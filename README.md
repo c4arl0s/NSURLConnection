@@ -5,6 +5,15 @@ An object that enables you to start and stop URL requests.
 - An object that enables you to start and stop URL requests.
 - The NSURLConnection class provides convenience class methods to load URL requests both asynchronously using a callback block and synchronously.
 
+# NSURLConnection can be used to download contents from a URL syncronously
+
+- The sendSynchronousRequest:returninghResponse:error: class method of NSURLConnection, as its name implies, deals with synchronous calls.
+- A synchronous call blocks its calling thread until the method returns.
+
+# NSURLConnection can be used to download contents from a URL asyncronously
+
+- An asynchronous call starts accessing and downloading the contents of a URL without blocking the calling thread.
+
 # Content-type
 
 - Content-type is known as a MIME type that indicates what kind of data an HTTP response contains.
